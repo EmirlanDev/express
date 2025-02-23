@@ -8,7 +8,7 @@ export const buildServer = () => {
 
   server.get("/", (request, response) => {
     response.status(200).send({
-      message: "succes",
+      message: "Hello world",
     });
   });
 
